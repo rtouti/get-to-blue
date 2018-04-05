@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <title>Get To Purple</title>
+    </head>
+	
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			background-color: #00BAA5;
+		}
+		h1 {
+			text-align: center;
+			font-size: 25px;
+			margin-top: 5px;
+		}
+		canvas {
+			position: absolute;
+			top: 17%; left: 50%;
+			width: 100%; height: auto;
+			transform: translateX(-50%);
+			
+			border: 1px solid black;
+		}
+		h2 {
+			position: absolute;
+			bottom: 5%; left: 50%;
+			transform: translateX(-50%);
+			
+			padding: 5px;
+			
+			background-color: #19709A;
+		}
+	</style>
+	
+    <body>
+		<h1 class="score">Score: 0</h1>
+		<h1 class="max-score">Max Score: 0</h1>
+		
+		<h2>Restart</h2>
+		
+		<script type="text/javascript" src="js/input.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+    </body>
+</html>
