@@ -2,6 +2,7 @@
 
 A small game for mobile made in JavaScript with Cordova
 
+Rules: You're green, catch blue for points. You lose if you get surrounded by walls (grey)
 
 (Gif is a bit laggy, not the game)
 
